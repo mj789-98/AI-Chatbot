@@ -1,0 +1,211 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+     "context": [""]
+     
+    },
+    {"tag": "Scholarship",
+        "patterns": ["What are the eligibility criteria for grant of PG Scholarship"],
+        "responses": ["Post Graduate Scholarship is entitled only to full time GATE qualifiedstudents admitted to AICTE approved programs viz , Master of Engineering Master , of Technology Master , of Architecture and Master of Pharmacy courses in AICTE approved Institutions and AICTE approved University Departments."],
+        "context": [""]
+   
+       },
+       {"tag": "document",
+        "patterns": ["What are the document required to be uploaded by the student"],
+        "responses": ["Students are required to upload to following documents:   a) Scanned PDF copy of GATE/GPAT score card  b) Scanned PDF copy of the passbook  c) Scanned PDF copy of the Aadhaar card Students of J&K, Meghalaya  and Assam are exempted d) Scanned PDF copy of caste certificate e) Scanned PDF copy of the Non-Creamy Layer (NCL) certificate in respect of only OBC candidates, Non-Creamy Layer (NCL) should not be old more than 1 year."],
+        "context": [""]
+
+    },
+
+    {"tag": "DBT",
+        "patterns": ["What is the procedure for applying online for grant of PG Scholarship through DBT"],
+        "responses": ["Proposal for grant of PG Scholarship are called for through advertisement in leading newspapers, Students/Institutes are advised to follow the procedure and guidelines contained. "],
+        "context": [""]
+
+    },
+    {"tag": "Eligibility",
+        "patterns": ["Eligibility for grant of PG Scholarship to the student who had wrongly entered his/her category as General category while appearing for GATE/GPAT exam whereas she/he has secured the qualifying marks earmarked marks for his/her category that means OBC/SC/ST category"],
+        "responses": ["Eligibility is considered on the basis of the category mentioned by the student while appearing for GATE/GPAT exam."],
+        "context": [""]
+
+    },
+    {"tag": "medical leave",
+        "patterns": ["Whether students are entitled for grant of any kind of medical leave, leave taken in emergent cases during the total duration of 24 months of the course"],
+        "responses": ["Students are eligible for following leaves: Casual leave : 15 days in a academic year Medical leave : Maximum of one month (30 days) in academic year Maternity leave : As per the Govt of India instructions time to time."],
+        "context": [""]
+
+    },
+    {"tag": "cut-off date",
+        "patterns": ["What is the cut-off date for grant of PG Scholarship Whether PG Scholarship is entitled for extended classes and what is the duration of the period for grant of PG Scholarship"],
+        "responses": ["No, PG Scholarship is tenable only for 24 months or for the duration of the  course that means from the date of commencement of classes till the date of completion of the classes whichever is lower and is not extendable under any circumstances, PG Scholarship is not entitled for extended classes."],
+        "context": [""]
+
+    },
+
+   
+    {"tag": "adverse_drug",
+     "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+     "responses": ["Navigating to Adverse drug reaction module"],
+     "context": [""]
+    },
+    {"tag": "foreign",
+        "patterns": ["Whether students from foreign are eligible for grant of PG Scholarship"],
+        "responses": ["No, Students from foreign are not eligible for grant of PG Scholarship."],
+        "context": [""]
+
+    },
+    {"tag": "long delay in receipt",
+        "patterns": ["What is the reason for long delay in receipt of PG Scholarship"],
+        "responses": ["The attendance/data submitted by the student/institute has to be processed at various levels, It consumes considerable time to release the PG Scholarship subject to availability of funds, leading to delays."],
+        "context": [""]
+
+    },
+    {"tag": "Arts and Science",
+        "patterns": ["Does AICTE allow Arts and Science Courses in an Institution offering Engineering Courses"],
+        "responses": ["Conduct of any other Academic Courses (Technical/Non-Technical):  The Institutions may conduct Academic Courses (Technical/ Non-Technical of any other Regulatory Body) using the existing facilities in excess or by creating additional facilities as per the provisions laid down in the norms and standards of the respective Regulatory Body without affecting the quality of education prescribed by all the Regulatory Bodies after taking NOC from the Council following the procedure specified in the Approval Process Handbook"],
+        "context": [""]
+
+    },
+
+    {"tag": "Aadhaar card is mandatory",
+        "patterns": ["Whether uploading of the data of Aadhaar card is mandatory"],
+        "responses": ["Yes, as per Department of Higher Education notification, scholarships have to be Aadhaar seeded and payment done through the Aadhaar Payment Gateway. Therefore, bank account should be aadhaar active."],
+        "context": [""]
+
+    },
+    {"tag": "2nd admission on the basis of requalifying",
+        "patterns": ["Can a passed out student taking 2nd admission on the basis of requalifying GATE/GPAT exam and already availed the scholarship from any source be eligible for scholarship"],
+        "responses": ["No, PG Scholarship is not admissible to passed out students taking 2nd time admission on the basis of re-qualifying GATE/GPAT exam who have already availed the scholarship from AICTE or any other Centrally funded Institution like IITs, NITs and IIITs etc."],
+        "context": [""]
+
+    },
+    {"tag": "refunding the PG Scholarship",
+        "patterns": ["What is the procedure for refunding the PG Scholarship drawn by the student on acquiring the fresh admission in AICTE approved Institutions/IITs/NITs etc"],
+        "responses": ["Refund in shape of demand draft favouring “Member Secretary, AICTE New Delhi through his/her previous Institution is to be done, for PG Scholarship drawn till date."],
+        "context": [""]
+
+    },
+    {"tag": "family members",
+        "patterns": ["Can the Joint Account with family members be uploaded"],
+        "responses": [" No, Joint account is not accepted."],
+        "context": [""]
+
+    },
+    {"tag": "queries related",
+        "patterns": ["Where to send the queries related to portal and approval related issues for the approval process 2021-22"],
+        "responses": ["Institute are requested to raises queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process 2021-22 quick links. No queries through email will be entertained"],
+        "context": [""]
+
+    },
+    {"tag": "contact in case of any difficulties",
+        "patterns": ["Whom to contact in case of any difficulties in accessing the portal for submitting online application"],
+        "responses": ["phone number 011-29581000 and for technical issues in the portal students/Institutions can make call on - 011-29581333 (from 9.30 am to.5.30 pm) on all working days (Monday-Friday) for any queries."],
+        "context": [""]
+
+    },
+    {"tag": "cut-off date",
+        "patterns": ["What is the cut-off date for grant of PG Scholarship Whether PG Scholarship is entitled for extended classes and what is the duration of the period for grant of PG Scholarship"],
+        "responses": ["No, PG Scholarship is tenable only for 24 months or for the duration of the  course that means from the date of commencement of classes till the date of completion of the classes whichever is lower and is not extendable under any circumstances, PG Scholarship is not entitled for extended classes."],
+        "context": [""]
+
+    },
+    {"tag": "medical leave",
+        "patterns": ["Whether students are entitled for grant of any kind of medical leave, leave taken in emergent cases during the total duration of 24 months of the course"],
+        "responses": ["Students are eligible for following leaves: Casual leave : 15 days in a academic year Medical leave : Maximum of one month (30 days) in academic year Maternity leave : As per the Govt of India instructions time to time."],
+        "context": [""]
+
+    },
+    {"tag": "State Government or Central Government",
+        "patterns": ["Whether a student who is recipient of Scholarship either through State Government or Central Government sponsored schemes is eligible for grant of PG scholarship"],
+        "responses": ["No, the student who is in receipt of any kind of Scholarship/Stipend or salary etc, is not eligible for grant of PG Scholarship."],
+        "context": [""]
+
+    },
+    {"tag": "admissible/part time courses",
+        "patterns": ["Whether the PG Scholarship is admissible to the GATE/GPAT qualified student admitted in part time courses "],
+        "responses": ["No, PG Scholarship is admissible to the GATE/GPAT qualified students, admitted only in full time course."],
+        "context": [""]
+
+    },
+    {"tag": "Aicte",
+        "patterns": ["Total colleges in AICTE"],
+        "responses": ["From data of 2014 and 2015, AICTE has a total of 8,919 colleges and institutions in India."],
+        "context": [""]
+
+    },
+    {"tag": "Top colleges",
+        "patterns": ["What are the top colleges in AICTE"],
+        "responses": ["IIT Madras ,IIT Bombay ,IIT Kharagpur, IIT Roorkee"],
+        "context": [""]
+
+    },
+    {"tag": "browser",
+        "patterns": ["Can I open AICTE web portal in any browser "],
+        "responses": ["Yes. You can open AICTE’s Web Portal in any Web Browser."],
+        "context": [""]
+
+    },
+
+    {"tag": "blood_pressure",
+     "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
+     "responses": ["Navigating to Blood Pressure module"],
+     "context": [""]
+    },
+    {"tag": "blood_pressure_search",
+     "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+     "responses": ["Please provide Patient ID", "Patient ID?"],
+     "context": ["search_blood_pressure_by_patient_id"]
+    },
+    {"tag": "search_blood_pressure_by_patient_id",
+     "patterns": [],
+     "responses": ["Loading Blood pressure result for Patient"],
+     "context": [""]
+    },
+    {"tag": "pharmacy_search",
+     "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+     "responses": ["Please provide pharmacy name"],
+     "context": ["search_pharmacy_by_name"]
+    },
+    {"tag": "search_pharmacy_by_name",
+     "patterns": [],
+     "responses": ["Loading pharmacy details"],
+     "context": [""]
+    },
+    {"tag": "hospital_search",
+     "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+     "responses": ["Please provide hospital name or location"],
+     "context": ["search_hospital_by_params"]
+    },
+    {"tag": "search_hospital_by_params",
+     "patterns": [],
+     "responses": ["Please provide hospital type"],
+     "context": ["search_hospital_by_type"]
+    },
+    {"tag": "search_hospital_by_type",
+     "patterns": [],
+     "responses": ["Loading hospital details"],
+     "context": [""]
+    }
+]
+}
